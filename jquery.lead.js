@@ -51,7 +51,11 @@
 
             // Style the `<span>` if the style option is true
             if (options.style) {
-                $el.find('.' + options.classname).css({ fontSize: options.fontsize, textTransform: options.texttransform, letterSpacing: options.letterspacing });
+                $el.find('.' + options.classname).css({
+                    fontSize: options.fontsize,
+                    textTransform: options.texttransform,
+                    letterSpacing: options.letterspacing
+                });
             }
 
         });
