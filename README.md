@@ -1,6 +1,6 @@
 # jQuery Lead
 
-**jQuery Lead** styles an arbitrary leading number of words of a paragraph by wrapping the first couple of words of a paragraph with an HTML `<span>` element. Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select an arbitrary number of words from the beginning of a paragraph. Styling these words creates a professional appearance like those in magazines and newspapers.
+**jQuery Lead** is a jQuery plugin that styles an arbitrary leading number of words of a paragraph by wrapping them in an HTML `<span>` element. Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style and arbitrary number of words from the beginning of a paragraph, creating a professional appearance like those in magazines and newspapers.
 
 ## Installation
 
@@ -36,13 +36,19 @@ Please see the demo to see these examples in action.
     $('.article-1').lead();
 
     // Demo 2: First 10 words
-    $('.article-2').lead({ words: 10 });
+    $('.article-2').lead({
+        words: 10
+    });
 
     // Demo 3: `<span>` with class of `run-in`
-    $('.article-3').lead({ classname: 'run-in' });
+    $('.article-3').lead({
+        classname: 'run-in'
+    });
 
     // Demo 4: Disable default style
-    $('.article-4').lead({ style: false });
+    $('.article-4').lead({
+        style: false
+    });
 
 ## Feature requests, bug reports, adoration, etc.
 
