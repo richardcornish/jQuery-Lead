@@ -1,6 +1,6 @@
 # jQuery Lead
 
-**jQuery Lead** is a jQuery plugin that styles an arbitrary leading number of words of a paragraph by wrapping them in an HTML `<span>` element. Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style and arbitrary number of words from the beginning of a paragraph, creating a professional appearance like those in magazines and newspapers.
+**jQuery Lead** is a jQuery plugin that styles an arbitrary leading number of words. Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style and arbitrary number of words from the beginning of a paragraph, creating a professional appearance like those in magazines and newspapers.
 
 ## Installation
 
@@ -23,7 +23,7 @@
 The plugin comes with reasonable default options: Wrap the first four words in `<span class="caps" />`. Feel free to customize it with these options:
 
 - `words`: The number of words to wrap, default of `4`
-- `classname`: The class of the `<span>`, default of `'caps'`
+- `classname`: The string as the class of the `<span>`, default of `'caps'`
 - `style`: A boolean adding a nifty built-in style, default of `true`
 
 The `style` option is to show that the plugin is working. You should probably have a `.caps` selector style with declarations of your own choosing, but the built-in (faked) small caps style is a reasonable choice as well.
@@ -43,7 +43,3 @@ Please see the demo to see these examples in action.
 
     // Demo 4: Disable default style
     $('.article-4').lead({ style: false });
-
-## Feature requests, bug reports, adoration, etc.
-
-[File an issue](https://github.com/richardcornish/jQuery-Lead/issues) or just e-mail me at [rich@richardcornish.com](mailto:rich@richardcornish.com).
