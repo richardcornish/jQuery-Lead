@@ -3,9 +3,9 @@
  *
  * @author       Richard Cornish <http://richardcornish.com>
  * @version      1.0
- * @description  Wraps the first couple of words of an HTML element in a <span />
+ * @description  Styles an arbitrary leading number of words of a paragraph
  *
- *  (c) 2014 Richard Cornish, licensed under the MIT License:
+ *  (c) Richard Cornish, licensed under the MIT License:
  *  http://www.opensource.org/licenses/mit-license.php
  */
 
