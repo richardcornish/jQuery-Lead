@@ -36,19 +36,13 @@ Please see the demo to see these examples in action.
     $('.article-1').lead();
 
     // Demo 2: First 10 words
-    $('.article-2').lead({
-        words: 10
-    });
+    $('.article-2').lead({ words: 10 });
 
     // Demo 3: `<span>` with class of `run-in`
-    $('.article-3').lead({
-        classname: 'run-in'
-    });
+    $('.article-3').lead({ classname: 'run-in' });
 
     // Demo 4: Disable default style
-    $('.article-4').lead({
-        style: false
-    });
+    $('.article-4').lead({ style: false });
 
 ## Feature requests, bug reports, adoration, etc.
 
