@@ -1,6 +1,8 @@
 # jQuery Lead
 
-**jQuery Lead** is a jQuery plugin that styles an arbitrary leading number of words. Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style and arbitrary number of words from the beginning of a paragraph, creating a professional appearance like those in magazines and newspapers.
+**jQuery Lead** is a jQuery plugin that styles an arbitrary leading number of words, creating a professional appearance like those in newspapers and magazines.
+
+Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style and arbitrary number of words from the beginning of a paragraph.
 
 ## Installation
 
