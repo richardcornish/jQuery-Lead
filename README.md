@@ -40,8 +40,16 @@ Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseud
 
 The plugin comes with reasonable default options: Wrap the first four words in `<span class="caps" />`. Feel free to customize it with these options:
 
-- `words`: The number of words to wrap, default of `4`
-- `classname`: The string as the class of the `<span>`, default of `'caps'`
-- `style`: A boolean adding a nifty built-in style, default of `true`
+- `words`
+
+    The number of words to wrap, default of `4`
+
+- `classname`
+
+    The string as the class of the `<span>`, default of `'caps'`
+
+- `style`
+
+    A boolean adding a nifty built-in style, default of `true`
 
 The `style` option is to show that the plugin is working. You should probably have a `.caps` selector style with declarations of your own choosing, but the built-in (faked) small caps style is a reasonable choice as well.
