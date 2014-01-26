@@ -30,9 +30,9 @@ The plugin comes with reasonable default options: Wrap the first four words in `
 
 The `style` option is to show that the plugin is working. You should probably have a `.caps` selector style with declarations of your own choosing, but the built-in (faked) small caps style is a reasonable choice as well.
 
-## Examples
+## Demo
 
-Please see the demo to see these examples in action.
+[Please see the demo](http://richardcornish.github.io/jQuery-Lead/) to see these examples in action.
 
     // Demo 1: Default options
     $('.article-1').lead();
