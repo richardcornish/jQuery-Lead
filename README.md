@@ -38,7 +38,7 @@ Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseud
 
 ## Options
 
-The plugin comes with reasonable default options: Wrap the first four words in `<span class="caps" />`. Feel free to customize it with these options:
+The plugin comes with reasonable default options: Wrap the first four words in `<span class="caps"></span>`. Feel free to customize it with these options:
 
 - `words`
 
