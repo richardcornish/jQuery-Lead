@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>jQuery Lead demos</title>
+    <title>jQuery Lede demos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         pre { overflow-x: auto; }
@@ -12,31 +12,31 @@
 
 <body>
 
-<h1>jQuery Lead demos</h1>
+<h1>jQuery Lede demos</h1>
 
 <h2>Code</h2>
 
 <pre><code>&lt;!-- jQuery from Google, latest 1.x.x version, minified for production --&gt;
 &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"&gt;&lt;/script&gt;
 
-&lt;!-- jQuery Lead, minified for production --&gt;
-&lt;script src="jquery.lead.min.js"&gt;&lt;/script&gt;
+&lt;!-- jQuery Lede, minified for production --&gt;
+&lt;script src="jquery.lede.min.js"&gt;&lt;/script&gt;
 
-&lt;!-- Call jQuery Lead on any selector with preferred options --&gt;
+&lt;!-- Call jQuery Lede on any selector with preferred options --&gt;
 &lt;script&gt;
 $(document).ready(function(){
 
     // Demo 1: Default options
-    $('.article-1').lead();
+    $('.article-1').lede();
 
     // Demo 2: First 10 words
-    $('.article-2').lead({ words: 10 });
+    $('.article-2').lede({ words: 10 });
 
     // Demo 3: `span` with class of `run-in`
-    $('.article-3').lead({ classname: 'run-in' });
+    $('.article-3').lede({ classname: 'run-in' });
 
     // Demo 4: Disable default style
-    $('.article-4').lead({ style: false });
+    $('.article-4').lede({ style: false });
 
 });
 &lt;/script&gt;</code></pre>
@@ -66,13 +66,13 @@ $(document).ready(function(){
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="jquery.lead.min.js"></script>
+<script src="jquery.lede.min.js"></script>
 <script>
 $(document).ready(function(){
-    $('.article-1').lead();
-    $('.article-2').lead({ words: 10 });
-    $('.article-3').lead({ classname: 'run-in' });
-    $('.article-4').lead({ style: false });
+    $('.article-1').lede();
+    $('.article-2').lede({ words: 10 });
+    $('.article-3').lede({ classname: 'run-in' });
+    $('.article-4').lede({ style: false });
 });
 </script>
 

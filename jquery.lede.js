@@ -1,5 +1,5 @@
 /**
- * jQuery Lead https://github.com/richardcornish/jQuery-Lead
+ * jQuery Lede https://github.com/richardcornish/jQuery-Lede
  *
  * @author       Richard Cornish <http://richardcornish.com>
  * @version      1.0
@@ -13,7 +13,7 @@
 
     'use strict';
 
-    $.fn.lead = function (user_options) {
+    $.fn.lede = function (user_options) {
 
         var defaults, options;
 
