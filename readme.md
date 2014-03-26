@@ -8,7 +8,7 @@ Its name comes from the [lede paragraph](http://en.wikipedia.org/wiki/Lead_parag
 
 ## Demo
 
-[Please see the demo](http://richardcornish.github.io/jQuery-Lede/) to see these examples in action.
+[Please see the demo](http://richardcornish.github.io/jquery-lede/) to see these examples in action.
 
     // Demo 1: Default options
     $('.article-1').lede();
