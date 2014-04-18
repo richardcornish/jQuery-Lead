@@ -1,6 +1,6 @@
 # Lede
 
-**Lede** is a jQuery plugin that styles an arbitrary leading number of words, creating a professional appearance like those in newspapers and magazines.
+**Lede** is a [jQuery](http://jquery.com/) plugin that styles an arbitrary leading number of words, creating a professional appearance like those in newspapers and magazines.
 
 Although CSS has [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-element-selectors) such as [:first-line](http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo) and [:first-letter](http://www.w3.org/TR/CSS2/selector.html#first-letter), it continues to lack the ability to select and style an arbitrary number of words from the beginning of a paragraph.
 
