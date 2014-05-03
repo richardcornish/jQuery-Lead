@@ -27,7 +27,7 @@ Its name comes from the [lede paragraph](http://en.wikipedia.org/wiki/Lead_parag
 Download and unzip the [ZIP archive file](https://github.com/richardcornish/jquery-lede/archive/master.zip). Alternatively, if you're using the [Bower](http://bower.io/) package manager, you can install via the command line:
 
 ```
-bower install git@github.com:richardcornish/jquery-lede.git
+bower install https://github.com/richardcornish/jquery-lede.git
 ```
 
 Then in your HTML:
